@@ -3,13 +3,13 @@
 # Declare variables to be passed into your templates.
 namespace:
   name: go-go
-replicaCount: 1
+replicaCount: 2
 
 image:
-  repository: mrwillo/go-helloworld:v5.12.3
+  repository: mrwillo/go-helloworld
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "v5.12.3"
 
 imagePullSecrets: []
 nameOverride: ""
