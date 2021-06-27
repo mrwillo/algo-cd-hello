@@ -40,6 +40,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
+  containerPort: 6111
 
 ingress:
   enabled: false
