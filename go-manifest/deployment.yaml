@@ -18,7 +18,7 @@ spec:
   template:
     metadata:
       labels:
-        app: python-helloworld
+        app: go-helloworld
     spec:
       containers:
       - image: mrwillo/go-helloworld:v5.12.3
